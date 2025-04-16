@@ -11,12 +11,12 @@ const env = "DEV"; // Toggle between these possible values "DEV" | "STAGE" | "PR
 let databaseCredential = "devuser:password";
 
 // Task: Add code here
-switch (env) {
+switch(env) {
     case "STAGE":
-        databaseCredential = "stageuser:password"
+        databaseCredential = "stageuser:password";
         break;
     case "PROD":
-        databaseCredential = "produser:password"
+        databaseCredential = "produser:password";
         break;
     default:
 }
